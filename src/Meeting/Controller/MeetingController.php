@@ -6,6 +6,9 @@ use Meeting\Helper\MeetingHelper;
 use Meeting\Helper\CsvHelper;
 
 /**
+ * Generate meetings report
+ * Generate CSV report
+ *
  * Class MeetingController
  * @package Meeting\Controller
  */
@@ -33,9 +36,6 @@ class MeetingController
         {
             echo $e->getMessage();
         }
-
-
-
     }
 
     /**

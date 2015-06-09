@@ -3,6 +3,8 @@
 namespace Meeting\Helper;
 
 /**
+ * Manipulate DateTime
+ *
  * Class DateHelper
  * @package Meeting\Helper
  */

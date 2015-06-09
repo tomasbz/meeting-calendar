@@ -4,12 +4,25 @@ namespace Meeting\Helper;
 
 use Keboola\Csv\CsvFile;
 
+/**
+ * CSV file generator
+ *
+ * Class CsvHelper
+ * @package Meeting\Helper
+ */
 class CsvHelper
 {
     private $_header;
     private $_filename;
     private $_outputDirectory;
 
+    /**
+     * Store csv report
+     *
+     * @param $data
+     * @return CsvFile
+     * @throws \Keboola\Csv\Exception
+     */
     public function storeCsvReport($data)
     {
         if (!file_exists($this->_outputDirectory))

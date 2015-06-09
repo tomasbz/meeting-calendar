@@ -3,6 +3,8 @@
 namespace Meeting\Helper;
 
 /**
+ * Generate mid month, end month meetings report
+ *
  * Class MeetingHelper
  * @package Meeting\Helper
  */
